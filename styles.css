@@ -1,0 +1,137 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+.header
+{
+    display:flex;
+    flex-direction:row;
+    width:auto;
+    height:100px;
+    background-color: #347ab4;
+}
+.logo
+{
+    width:100px;
+    height:100px;
+    padding-left: 50px;
+}
+.meniu
+{
+    padding-left: 650px;
+    padding-top:20px;
+    list-style: none;
+}
+.header ul li a
+{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.footer
+{
+    height:100px;
+    width:auto;
+    background-color: #347ab4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.created
+{
+    color:#FFFFFF;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.internship
+{
+    color:#FFFFFF;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+.about h1
+{
+    top:200px;
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 300px;
+}
+.back
+{
+    text-decoration: none;
+    color:black;
+    top:20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.container
+{
+    top:100px;
+    margin-left: 50px;
+    background-color:white;
+    width:700px;
+    height:540px;
+}
+.search
+{
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    width:200px;
+
+}
+.table
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.butoane
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.modal
+{
+    margin-left: 100px;
+    margin-top: 30px;
+    display:none;
+    width:200px;
+    height:100px;
+    background-color: #347ab4; 
+}
+.close
+{
+    cursor:pointer;
+    text-align: end;
+}
+.dialog
+{
+    margin-left: 100px;
+    margin-top: 30px;
+    display:none;
+    width:200px;
+    height:100px;
+    background-color: #347ab4; 
+    text-align: center;
+    padding-top: 5px;
+}
+.but
+{
+    margin-top: 30px;
+}

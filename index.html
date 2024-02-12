@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <title>Internship 2023</title>
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" class="logo">
+        <ul class="meniu">
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="about.html" id="about">About</a></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="search">
+            <input type="text" class="text" maxlenght= "100" required >
+            <button>Search</button>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                  <td>Word</td>
+                  <td>Date time</td>
+                  <td>Actions</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                  </tr>
+              </table>
+
+        </div>
+        <div class="butoane">
+            <button onclick="openModal()">View</button>
+            <button onclick="deschide()">Delete</button>
+        </div>
+        <div class="modal" id="modal">
+            <div class="close" onclick="closeModal()">X</div>
+        </div>
+        <div class="dialog" id="dialog">
+            <p>Are you sure you want to delete this action?</p>
+            <button class = "but" onclick="inchide()">No</button>
+            <button class = "but" onclick="">Yes</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="created">
+            <p>Created by: Badragan Adriana</p>
+        </div>
+        <div class="internship">
+            <p>Internship 2023</p>
+        </div>
+    </div>
+
+
+    <script>
+        var modal;
+        var modal = document.getElementById('modal');
+
+        var dialog;
+        var dialog = document.getElementById('dialog');
+
+        function openModal()
+        {
+            modal.style.display='block';
+        }
+
+        function closeModal()
+        {
+            modal.style.display='none';
+        }
+        
+        function deschide()
+        {
+            dialog.style.display='block';
+
+        }
+        function inchide()
+        {
+            dialog.style.display='none';
+        }
+
+    </script>
+    
+</body>
+</html>
